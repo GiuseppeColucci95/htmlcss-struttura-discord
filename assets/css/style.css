@@ -28,6 +28,7 @@
 
 .debug {
   border: 2px dashed black;
+
 }
 
 /* utilities */
@@ -68,16 +69,40 @@
   background-color: var(--primary-medium-color);
 }
 
+.bg-contacts {
+  background-color: var(--contacts-bg-color);
+}
+
+.bg-contacts-main {
+  background-color: var(--contacts-main-color);
+}
+
+.bg-contacts-secondary {
+  background-color: var(--contacts-secondary-color);
+}
+
 .d-flex {
   display: flex;
+}
+
+.fd-c {
+  flex-direction: column;
 }
 
 .jc-c {
   justify-content: center;
 }
 
+.jc-start {
+  justify-content: start;
+}
+
 .ai-c {
   align-items: center;
+}
+
+.ai-start {
+  align-items: flex-start;
 }
 
 .w-100 {
@@ -108,8 +133,20 @@
   width: 40%;
 }
 
+.w-30 {
+  width: 30%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
 .w-20 {
   width: 20%;
+}
+
+.w-15 {
+  width: 15%;
 }
 
 .h-100 {
@@ -128,8 +165,16 @@
   min-height: 900px;
 }
 
+.mh-650 {
+  min-height: 650px;
+}
+
 .mh-600 {
   min-height: 600px;
+}
+
+.mh-550 {
+  min-height: 550px;
 }
 
 .mh-500 {
@@ -142,6 +187,18 @@
 
 .m-auto {
   margin: auto;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.dashed-light {
+  border: 2px dashed var(--bg-lighter-color);
 }
 
 /* main */
