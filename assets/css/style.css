@@ -64,6 +64,10 @@
   background-color: var(--primary-light-color);
 }
 
+.bg-primary-medium {
+  background-color: var(--primary-medium-color);
+}
+
 .d-flex {
   display: flex;
 }
@@ -74,6 +78,10 @@
 
 .ai-c {
   align-items: center;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .w-80 {
@@ -112,12 +120,24 @@
   padding: 0.75rem;
 }
 
-.mh-400 {
-  min-height: 400px;
+.mh-1000 {
+  min-height: 1000px;
+}
+
+.mh-900 {
+  min-height: 900px;
+}
+
+.mh-600 {
+  min-height: 600px;
 }
 
 .mh-500 {
   min-height: 500px;
+}
+
+.mh-400 {
+  min-height: 400px;
 }
 
 .m-auto {
