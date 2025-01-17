@@ -41,7 +41,7 @@
   background-color: var(--header-color);
 }
 
-.jumbotron-primary {
+.bg-jumbotron-primary {
   background-color: var(--jumbotron-color);
 }
 
