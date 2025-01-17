@@ -26,68 +26,69 @@
 
 /* debug */
 
-.debug {
+.debug * {
+
   border: 2px dashed black;
 
+  .bg-header {
+    background-color: var(--header-bg-color);
+  }
+
+  .bg-header-primary {
+    background-color: var(--header-color);
+  }
+
+  .bg-jumbotron-primary {
+    background-color: var(--jumbotron-color);
+  }
+
+  .bg-jumbotron {
+    background-color: var(--jumbotron-bg-color);
+  }
+
+  .bg-light {
+    background-color: var(--bg-light-color);
+  }
+
+  .bg-lighter {
+    background-color: var(--bg-lighter-color);
+  }
+
+  .bg-primary-dark {
+    background-color: var(--primary-dark-color);
+  }
+
+  .bg-primary-light {
+    background-color: var(--primary-light-color);
+  }
+
+  .bg-primary-medium {
+    background-color: var(--primary-medium-color);
+  }
+
+  .bg-contacts {
+    background-color: var(--contacts-bg-color);
+  }
+
+  .bg-contacts-main {
+    background-color: var(--contacts-main-color);
+  }
+
+  .bg-contacts-secondary {
+    background-color: var(--contacts-secondary-color);
+  }
+
+  .bg-footer {
+    background-color: var(--footer-color);
+  }
+
+  .bg-footer-btn {
+    background-color: var(--footer-btn-color);
+  }
 }
 
 /* utilities */
 
-.bg-header {
-  background-color: var(--header-bg-color);
-}
-
-.bg-header-primary {
-  background-color: var(--header-color);
-}
-
-.bg-jumbotron-primary {
-  background-color: var(--jumbotron-color);
-}
-
-.bg-jumbotron {
-  background-color: var(--jumbotron-bg-color);
-}
-
-.bg-light {
-  background-color: var(--bg-light-color);
-}
-
-.bg-lighter {
-  background-color: var(--bg-lighter-color);
-}
-
-.bg-primary-dark {
-  background-color: var(--primary-dark-color);
-}
-
-.bg-primary-light {
-  background-color: var(--primary-light-color);
-}
-
-.bg-primary-medium {
-  background-color: var(--primary-medium-color);
-}
-
-.bg-contacts {
-  background-color: var(--contacts-bg-color);
-}
-
-.bg-contacts-main {
-  background-color: var(--contacts-main-color);
-}
-
-.bg-contacts-secondary {
-  background-color: var(--contacts-secondary-color);
-}
-
-.bg-footer {
-  background-color: var(--footer-color);
-}
-
-.bg-footer-btn {
-  background-color: var(--footer-btn-color);
-}
 
 .d-flex {
   display: flex;
