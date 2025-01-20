@@ -26,9 +26,11 @@
 
 /* debug */
 
-.debug * {
+.debug {
 
-  border: 2px dashed black;
+  * {
+    border: 2px dashed black;
+  }
 
   .bg-header {
     background-color: var(--header-bg-color);
@@ -131,7 +133,6 @@
   }
 
 }
-
 
 /* utilities */
 
@@ -254,8 +255,8 @@
       color: var(--darker-color);
     }
   }
-}
 
-#header-login {
-  text-align: right;
+  #header-login {
+    text-align: right;
+  }
 }
